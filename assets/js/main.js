@@ -156,7 +156,7 @@
 			}
 		});
 
-		var name = "Curious student, dreamer, tinkerer"
+		var name = "Curious student, dreamer, thinker"
 		var i = 0;
 
 		// Function will type the selected text
