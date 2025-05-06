@@ -14,32 +14,32 @@
 	</head>
 	<body class="is-preload">
 
-		<!-- Header -->
-			<section id="header">
-				<header>
-					<span class="image avatar"><img src="images/Erica_skirt.jpg" alt="" /></span>
-					<h1 id="logo"><a target="_self" href="index.html">Erica Pauline Santos</a></h1>
-					<!-- <p> Curious student, dreamer, tinkerer</p> -->
-					<p id = "NavBarTitle"> </p>
-				</header>
-				<nav id="nav">
-					<ul>
-						<li><a href="#one" class="active">About Me</a></li>
-						<li><a href="#two">Skills</a></li>
-						<li><a href="#three">A Few Experiences</a></li>
-						<li><a href="#four">Other Projects</a></li>
-						<!--<li><a href="#four">Contact</a></li> -->
-					</ul>
-				</nav>
-				<footer>
-					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/erica-pauline-santos-35b7911a8/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://www.instagram.com/am_erica_santos/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="https://github.com/ericapsa" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="mailto: ericapsa@umich.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-				</footer>
-			</section>
+<!-- Header -->
+<section id="header">
+	<header>
+		<span class="image avatar"><img src="images/headshot_lsic.png" alt="" /></span>
+		<h1 id="logo"><a target="_self" href="index.html">Erica Pauline Santos</a></h1>
+		<!-- <p> Curious student, dreamer, tinkerer</p> -->
+		<p id = "NavBarTitle"> </p>
+	</header>
+	<nav id="nav">
+		<ul>
+			<li><a href="#one" class="active">About Me</a></li>
+			<!-- <li><a href="#two">Skills</a></li> -->
+			<li><a href="#three">Technical Projects</a></li>
+			<li><a href="#four">Personal Projects</a></li>
+			<!--<li><a href="#four">Contact</a></li> -->
+		</ul>
+	</nav>
+	<footer>
+		<ul class="icons">
+			<li><a href="https://www.linkedin.com/in/erica-pauline-santos-35b7911a8/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+			<!-- <li><a href="https://www.instagram.com/am_erica_santos/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
+			<li><a href="https://github.com/erisa-arise" class="icon brands fa-github"><span class="label">Github</span></a></li>
+			<li><a href="mailto: erisa@seas.upenn.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+		</ul>
+	</footer>
+</section>
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -58,87 +58,67 @@
 										<!-- <p>Just an incredibly simple responsive site<br />
 										template freebie by <a href="http://html5up.net">HTML5 UP</a>.</p> -->
 									</header>
-									<p> I am a mechanical engineer undergraduate at the University of Michigan,
-									interested in robotics and sustainable design. Other identities
-									include being a computer science nerd, science olympiad board member,
-									violinist and ballroom dancer.
-									<b> <a target="_self" href="about_me.html"> More about me </a> </b> </p>
-										<!-- Paragraph of info! -->
-								</div>
-							</section>
+									<p>  I’m a roboticist passionate about building systems that move and think in the real world. 
+										My focus is on mechanical design and autonomous system integration, especially for field robotics in space and other challenging environments. 
+										I earned my BSE in Mechanical Engineering with a Minor in Computer Science from the University of Michigan, and I’m currently completing my MSE in Robotics at the University of Pennsylvania (graduating May 2025). 
+										Outside the lab, I’m a dancer, artist, and violinist—I believe creative expression strengthens my engineering work.
 
-						<!-- Two -->
-							<section id="two">
-								<div class="container">
-									<h3>Skills</h3>
-									<!-- <p> </p> -->
-									<ul class="feature-icons">
-										<li class="icon solid fa-code">C++ </li>
-										<li class="icon solid fa-cubes">HTML, CSS, JS</li>
-										<li class="icon solid fa-book">Organized</li>
-										<li class="icon solid fa-coffee">Time Management</li>
-										<li class="icon solid fa-bolt">Excels under stress</li>
-										<li class="icon solid fa-users">Works well with teams</li>
-									</ul>
+									</p>
+									<!-- <p> <b> <a target="_self" href="about_me.html"> More about me </a> </b> </p> -->
+										<!-- Paragraph of info! -->
 								</div>
 							</section>
 
 						<!-- Three -->
 							<section id="three">
 								<div class="container">
-									<h3>A Few Experiences</h3>
+									<h3>Technical Projects</h3>
 									<!-- <p> </p> -->
 									<div class="features">
-										<p> Check out my <a target="_self" href="timeline.html"> full timeline </a>
-										for more experiences and student organization involvement. Below I've put
-										a summary of my most relevant experiences. </p>
+										
 										<article>
-											<a class="image"><img src="images/north_campus.jpg" alt="" /></a>
+											<a class="image"> <img src="images/f1tenth_track.png"/> <img src="images/f1tenth_mpc_rviz2.png"/> </a>
 											<div class="inner">
-												<h4>Began College at University of Michigan</h4>
-												<p> Enrolled in the College of Engineering in September 2019. Accepted
-													into the College of Engineering Honors Program in March 2021. Go Blue! </p>
-												<p> Declared a BSE in Mechanical Engineering and Minor in Computer Science. </p>
+												
+												<h4> F1Tenth Autonomous Racing</h4>
+												<p> As part of the ESE 6150: Autonomous Racing course at Penn (a part of <a href="https://roboracer.ai/"> RoboRacer</a>), I developed and implemented planning, perception, and control algorithms for a 1/10th scale autonomous race car using ROS2 in Python. 
+													My work included wall following, pure pursuit, SLAM, RRT-based obstacle avoidance, and model predictive control (MPC). 
+													I tested all systems in simulation using RViz and the F1TENTH Gym, and deployed them onto a physical race car for real-world validation. 
+													For the final race, we used an MPC controller tracking an optimally generated trajectory, with dynamic switching to a "follow-the-gap" reactive method to safely avoid other vehicles on the track. </p>
 											</div>
 										</article>
 										<article>
-											<a class="image"><img src="images/stem.jpg" alt="" /></a>
+											<a class="image"> <img src="images/ames_group_bots.JPG" alt="" /> <img src="images/ames_group_ppi.png" alt="" /> <img src="images/rhex_cad.png"/>  <img src="images/me_rhex_boxy.jpeg" alt="" />  </a>
 											<div class="inner">
-												<h4>Graduated from the
-													<a href="https://www.fhps.net/departments/instruction/stem-academy/"> STEM Academy </a>
-													and FHC</h4>
-												<p> As the pioneer class of the STEM Academy (Science, Technology, Engineering and Math),
-												I enrolled in this 4-year program to take STEM-targeted courses
-												taught in a project-based format that cumulated in a capstone
-												project senior year. </p>
+												<h4> TRUSSES:
+													Temporarily, Robots Unite to Surmount Sandy Entrapments, then Separate </h4>
+												<p> I am a mechanical lead on an ongoing NASA LuSTR-funded robotics project (Grant #80NSSC24K0127), where I design, fabricate, and adapt novel robotic platforms including the Spiral Zipper and 2xRHex (a meter scale legged robotic platform) for the heterogeneous team of robots connected by Spiral Zipper Arms. Using SolidWorks for CAD, I led rapid, iterative prototyping across the entire mechanical development process—leveraging 3D printing, laser cutting, waterjet cutting, and basic machining to manufacture and assemble a majority of the robotic components from scratch. My work includes modifications to the Spiral Zipper’s rotary encoder and limit switch system, full manufacture and assembly of the Spiral Zipper, and mechanical design and fabrication of the 2xRHex robot.
+
+												Beyond design and fabrication, I lead project planning and coordination for a 10+ person hardware team, ensuring timely integration across subsystems. 
+												I ran experiments at NASA Ames' SSERVI Lunar Testbed and plan to deploy the system at the White Sands National Park for futher experimentaiton and validation.
+												I also contribute significantly to technical writing, with work accepted into top robotics venues, including a Bi-Level Optimization Control Problem Setup accepted to an ICRA workshop and a systems mechanism design paper accepted to ISER. </p>
 											</div>
 										</article>
 										<article>
-											<a class="image"><img src="images/stem_ted.JPG" alt="" /></a>
+											<a class="image"><img src="images/meam6230_final_proj.png" alt="" /></a>
 											<div class="inner">
-												<h4>Completed STEM Academy Internship Capstone</h4>
-												<p> As a part of the 4-year program I enrolled in my highschool,
-												my senior year consisted of internship work with companies
-												in the community during the school day. I was the only one
-												to have completed two internships. I presented both
-												my research at GPI and the design process for my prototype in
-												Steelcase during our capstone presentation night!</p>
+												<h4> Adaptive and Reactive Controller for F1Tenth Car </h4>
+												<p> For my final project in MEAM 6230: Learning And Control For Adaptive And Reactive Robots, I developed a reactive adaptive controller for an F1TENTH autonomous racecar using ROS2, VICON motion capture, and CasADi-based optimization. We used a neural ODE to learn a dynamical system and implemented control using Control Lyapunov and Barrier Functions (CLF/CBF). My team built and tested the ROS2 control nodes, integrated them on the real car, and demonstrated robust trajectory tracking with recovery from perturbations. The system is now being extended to handle dynamic obstacle avoidance. </p>
 											</div>
 										</article>
 										<article>
-											<a class="image"><img src="images/stem_gpi.JPG" alt="" /></a>
+											<a class="image"><img src="images/laser_alignment_hardware.png" alt="" /></a>
 											<div class="inner">
-												<h4>Presented at the SPCC National Conference </h4>
-												<p> As the culmination of my research internship with
-													<a href="http://www.gpilabs.com">GPI Laboratories</a>
-												, my partners and I spent a week in Orlando,
-												Florida, presenting alongside PHD and college graduates students.
-												Although we didn't win the research poster presentation competition,
-												the evaluation committee awarded us with a small monetary prize
-												for being the youngest to compete. Staying ontop of our timeline
-												to finish the research and creating the poster taught me
-											 	a lot about persistence- to keep moving forward while keeping an
-												eye on the end of the journey. </p>
+												<h4> Automated Laser Alignment Tool Design and Control</h4>
+												<p> 
+													I designed, prototyped, and assembled a custom auxiliary device in SolidWorks to automate laser alignment for the F100 robot. I developed and integrated Python-based motor control software and custom controller logic into the existing production line infrastructure. The system significantly reduced operator touch time by 80% and halved measurement time—and continues to operate on the manufacturing floor more than two years later. </p>
+											</div>
+										</article>
+										<article>
+											<a class="image"><img src="images/locolab.png" alt="" /></a>
+											<div class="inner">
+												<h4> In-Shoe Force Sensor Design and Testing</h4>
+												<p> At the Locomotor Control Systems Lab, I designed and prototyped a compact force sensor casing system in Fusion 360 for use in exoskeleton walking trials. The casing enabled accurate ground reaction force measurements in commercial shoes to support real-world task-switching gait analysis. I led material research, iterative redesign, and assembly—including sensor integration and electrical wiring—for a successful test run. My work improved data quality and expanded hardware accessibility to a broader participant pool. This effort supported a larger NSF-funded study focused on task-invariant, backdrivable lower-limb exoskeletons. </p>
 											</div>
 										</article>
 									</div>
@@ -148,32 +128,30 @@
 						<!-- Four -->
 						<section id="four">
 							<div class="container">
-								<h3> Other Projects </h3>
-								<p> Here's a collection of a few online projects I have done!
-									I learned web development over the 2020 summer and created a couple pages. </p>
+								<h3> Personal Projects </h3>
+
 								<div class="features">
+									<article>
+										<a class="image"><img src="images/window.jpg" alt="" /></a>
+										<div class="inner">
+											<h4> <a href="https://pies-photos.netlify.app">  <u>  Photo Gallery </u> 	</a> </h4>
+											<p>A gallery of photos I've taken through through my travels.
+												I've been experimenting with the composition, color, and framing of my shots. </p>
+										</div>
+									</article>
 									<article>
 										<a href="https://welcome-pies.netlify.app" class="image"><img src="images/to_do.png" alt="" /></a>
 										<div class="inner">
-											<h4>Personal Dashboard</h4>
+											<h4> <a href="https://welcome-pies.netlify.app">  <u>  Personal Dashboard </u> 	</a> </h4>
+
 											<p> A personal dashboard I created combining a to-do list, news and weather APIs, and a random idea generator. </p>
 										</div>
 									</article>
 									<article>
-										<!-- ADD LINK!! ?? -->
-										<a href="https://pies-photos.netlify.app" class="image"><img src="images/window.jpg" alt="" /></a>
+										<a class="image"><img src="images/day_clock.png" alt="" /></a>
 										<div class="inner">
-											<h4>Photo Gallery</h4>
-											<p>A gallery of nice photos I've caught.
-												I've been experimenting with the composition of my shots
-												and love to travel so here's my collection so far! </p>
-										</div>
-									</article>
-									<article>
-										<a href="https://minimal-online-clock.netlify.app" class="image"><img src="images/day_clock.png" alt="" /></a>
-										<div class="inner">
-											<h4>Online Clock</h4>
-											<p>A minimal clock I created that changes the background when it passes 7pm to "night mode".
+											<h4> <a href="https://minimal-online-clock.netlify.app">  <u>  Online Clock </u> 	</a> </h4>
+											<p>A minimal clock that changes the background when it passes 7pm to "night mode".
 											Credits to <a href="https://enlight.nyc/projects/clock"/>Enlight's tutorial.</a> </p>
 										</div>
 									</article>
@@ -181,358 +159,6 @@
 							</div>
 						</section>
 
-						<!--
-							<section id="four">
-								<div class="container">
-									<h3>Contact Me</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
-									<form method="post" action="#">
-										<div class="row gtr-uniform">
-											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-											<div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
-											<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
-											<div class="col-12">
-												<ul class="actions">
-													<li><input type="submit" class="primary" value="Send Message" /></li>
-													<li><input type="reset" value="Reset Form" /></li>
-												</ul>
-											</div>
-										</div>
-									</form>
-								</div>
-							</section>
-						-->
-						<!-- Five -->
-						<!--
-							<section id="five">
-								<div class="container">
-									<h3>Elements</h3>
-
-									<section>
-										<h4>Text</h4>
-										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-										<hr />
-										<header>
-											<h4>Heading with a Subtitle</h4>
-											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-										</header>
-										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-										<header>
-											<h5>Heading with a Subtitle</h5>
-											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-										</header>
-										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-										<hr />
-										<h2>Heading Level 2</h2>
-										<h3>Heading Level 3</h3>
-										<h4>Heading Level 4</h4>
-										<h5>Heading Level 5</h5>
-										<h6>Heading Level 6</h6>
-										<hr />
-										<h5>Blockquote</h5>
-										<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-										<h5>Preformatted</h5>
-										<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-									</section>
-
-									<section>
-										<h4>Lists</h4>
-										<div class="row">
-											<div class="col-6 col-12-xsmall">
-												<h5>Unordered</h5>
-												<ul>
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Sagittis adipiscing lorem eleifend.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-												</ul>
-												<h5>Alternate</h5>
-												<ul class="alt">
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Sagittis adipiscing lorem eleifend.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-												</ul>
-											</div>
-											<div class="col-6 col-12-xsmall">
-												<h5>Ordered</h5>
-												<ol>
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Etiam vel felis at lorem sed viverra.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Etiam vel felis at lorem sed viverra.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-												</ol>
-												<h5>Icons</h5>
-												<ul class="icons">
-													<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-													<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-													<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-													<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-													<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-													<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
-												</ul>
-											</div>
-										</div>
-										<h5>Actions</h5>
-										<ul class="actions">
-											<li><a href="#" class="button primary">Default</a></li>
-											<li><a href="#" class="button">Default</a></li>
-											<li><a href="#" class="button alt">Default</a></li>
-										</ul>
-										<ul class="actions small">
-											<li><a href="#" class="button primary small">Small</a></li>
-											<li><a href="#" class="button small">Small</a></li>
-											<li><a href="#" class="button alt small">Small</a></li>
-										</ul>
-										<div class="row">
-											<div class="col-3 col-6-medium col-12-xsmall">
-												<ul class="actions stacked">
-													<li><a href="#" class="button primary">Default</a></li>
-													<li><a href="#" class="button">Default</a></li>
-													<li><a href="#" class="button alt">Default</a></li>
-												</ul>
-											</div>
-											<div class="col-3 col-6 col-12-xsmall">
-												<ul class="actions stacked">
-													<li><a href="#" class="button primary small">Small</a></li>
-													<li><a href="#" class="button small">Small</a></li>
-													<li><a href="#" class="button alt small">Small</a></li>
-												</ul>
-											</div>
-											<div class="col-3 col-6-medium col-12-xsmall">
-												<ul class="actions stacked">
-													<li><a href="#" class="button primary fit">Default</a></li>
-													<li><a href="#" class="button fit">Default</a></li>
-													<li><a href="#" class="button alt fit">Default</a></li>
-												</ul>
-											</div>
-											<div class="col-3 col-6-medium col-12-xsmall">
-												<ul class="actions stacked">
-													<li><a href="#" class="button primary small fit">Small</a></li>
-													<li><a href="#" class="button small fit">Small</a></li>
-													<li><a href="#" class="button alt small fit">Small</a></li>
-												</ul>
-											</div>
-										</div>
-									</section>
-
-									<section>
-										<h4>Table</h4>
-										<h5>Default</h5>
-										<div class="table-wrapper">
-											<table>
-												<thead>
-													<tr>
-														<th>Name</th>
-														<th>Description</th>
-														<th>Price</th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td>Item One</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Two</td>
-														<td>Vis ac commodo adipiscing arcu aliquet.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Three</td>
-														<td> Morbi faucibus arcu accumsan lorem.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Four</td>
-														<td>Vitae integer tempus condimentum.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Five</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-												</tbody>
-												<tfoot>
-													<tr>
-														<td colspan="2"></td>
-														<td>100.00</td>
-													</tr>
-												</tfoot>
-											</table>
-										</div>
-
-										<h5>Alternate</h5>
-										<div class="table-wrapper">
-											<table class="alt">
-												<thead>
-													<tr>
-														<th>Name</th>
-														<th>Description</th>
-														<th>Price</th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td>Item One</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Two</td>
-														<td>Vis ac commodo adipiscing arcu aliquet.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Three</td>
-														<td> Morbi faucibus arcu accumsan lorem.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Four</td>
-														<td>Vitae integer tempus condimentum.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Five</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-												</tbody>
-												<tfoot>
-													<tr>
-														<td colspan="2"></td>
-														<td>100.00</td>
-													</tr>
-												</tfoot>
-											</table>
-										</div>
-									</section>
-
-									<section>
-										<h4>Buttons</h4>
-										<ul class="actions">
-											<li><a href="#" class="button primary">Primary</a></li>
-											<li><a href="#" class="button">Default</a></li>
-											<li><a href="#" class="button alt">Alternate</a></li>
-										</ul>
-										<ul class="actions">
-											<li><a href="#" class="button primary large">Large</a></li>
-											<li><a href="#" class="button">Default</a></li>
-											<li><a href="#" class="button alt small">Small</a></li>
-										</ul>
-										<ul class="actions fit">
-											<li><a href="#" class="button primary fit">Fit</a></li>
-											<li><a href="#" class="button fit">Fit</a></li>
-											<li><a href="#" class="button alt fit">Fit</a></li>
-										</ul>
-										<ul class="actions fit small">
-											<li><a href="#" class="button primary fit small">Fit + Small</a></li>
-											<li><a href="#" class="button fit small">Fit + Small</a></li>
-											<li><a href="#" class="button alt fit small">Fit + Small</a></li>
-										</ul>
-										<ul class="actions">
-											<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-											<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-											<li><a href="#" class="button alt icon solid fa-check">Icon</a></li>
-										</ul>
-										<ul class="actions">
-											<li><span class="button primary disabled">Primary</span></li>
-											<li><span class="button disabled">Default</span></li>
-											<li><span class="button alt disabled">Alternate</span></li>
-										</ul>
-									</section>
-
-									<section>
-										<h4>Form</h4>
-										<form method="post" action="#">
-											<div class="row gtr-uniform">
-												<div class="col-6 col-12-xsmall">
-													<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-												</div>
-												<div class="col-6 col-12-xsmall">
-													<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-												</div>
-												<div class="col-12">
-													<select name="demo-category" id="demo-category">
-														<option value="">- Category -</option>
-														<option value="1">Manufacturing</option>
-														<option value="1">Shipping</option>
-														<option value="1">Administration</option>
-														<option value="1">Human Resources</option>
-													</select>
-												</div>
-												<div class="col-4 col-12-medium">
-													<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-													<label for="demo-priority-low">Low Priority</label>
-												</div>
-												<div class="col-4 col-12-medium">
-													<input type="radio" id="demo-priority-normal" name="demo-priority">
-													<label for="demo-priority-normal">Normal Priority</label>
-												</div>
-												<div class="col-4 col-12-medium">
-													<input type="radio" id="demo-priority-high" name="demo-priority">
-													<label for="demo-priority-high">High Priority</label>
-												</div>
-												<div class="col-6 col-12-medium">
-													<input type="checkbox" id="demo-copy" name="demo-copy">
-													<label for="demo-copy">Email me a copy of this message</label>
-												</div>
-												<div class="col-6 col-12-medium">
-													<input type="checkbox" id="demo-human" name="demo-human" checked>
-													<label for="demo-human">I am a human and not a robot</label>
-												</div>
-												<div class="col-12">
-													<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-												</div>
-												<div class="col-12">
-													<ul class="actions">
-														<li><input type="submit" value="Send Message" /></li>
-														<li><input type="reset" value="Reset" class="alt" /></li>
-													</ul>
-												</div>
-											</div>
-										</form>
-									</section>
-
-									<section>
-										<h4>Image</h4>
-										<h5>Fit</h5>
-										<span class="image fit"><img src="images/banner.jpg" alt="" /></span>
-										<div class="box alt">
-											<div class="row gtr-50 gtr-uniform">
-												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-											</div>
-										</div>
-										<h5>Left &amp; Right</h5>
-										<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-										<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-									</section>
-
-								</div>
-							</section>
-						-->
 
 					</div>
 
@@ -540,7 +166,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					<section id="footer">
 						<div class="container">
 							<ul class="copyright">
-								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>
